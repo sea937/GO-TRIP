@@ -1,0 +1,10 @@
+ /* style.css */
+body { font-family: sans-serif; line-height: 1.8; color: #444; background-color: #fcfcfc; margin: 0; padding: 0; }
+main { max-width: 800px; margin: 40px auto; padding: 40px; background: #ffffff; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05); }
+.nav-links { display: flex; justify-content: space-between; margin-bottom: 30px; padding: 15px 20px; background: #f0f7ff; border-radius: 8px; }
+.nav-links a { text-decoration: none; color: #007bff; font-weight: bold; }
+h1 { font-size: 2.5em; color: #2c3e50; border-bottom: 3px solid #ffde7d; display: inline-block; }
+h2 { color: #2c3e50; border-left: 5px solid #7dcfb6; padding-left: 15px; margin-top: 40px; }
+table { width: 100%; border-collapse: collapse; margin: 20px 0; }
+th, td { padding: 12px; border: 1px solid #eee; }
+th { background-color: #f9f9f9; }
