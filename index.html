@@ -2,76 +2,73 @@
 <html lang="ja">
 <head>
     <meta charset="UTF-8">
-    <title>世界旅行ガイドブック</title>
-    <link rel="stylesheet" href="style.css">
+    <title>世界旅行ガイドブック - 地域一覧</title>
+    <style>
+        body { font-family: sans-serif; line-height: 1.6; max-width: 1000px; margin: 0 auto; padding: 20px; }
+        h1 { text-align: center; border-bottom: 3px solid #333; padding-bottom: 20px; }
+        h2 { background: #e0e0e0; padding: 10px; margin-top: 40px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; margin-top: 15px; }
+        .card { border: 1px solid #ccc; padding: 10px; text-align: center; border-radius: 5px; background: #f9f9f9; }
+        .card a { text-decoration: none; color: #333; font-weight: bold; display: block; }
+        .card:hover { background: #eee; }
+    </style>
 </head>
 <body>
     <h1>🌍 世界旅行ガイドブック</h1>
 
-    <section>
-        <h2>アジア</h2>
-        <ul>
-            <li><a href="singapore.html">シンガポール</a></li>
-            <li><a href="malaysia.html">マレーシア</a></li>
-            <li><a href="thailand.html">タイ</a></li>
-            <li><a href="southkorea.html">韓国</a></li>
-            <li><a href="taiwan.html">台湾</a></li>
-            <li><a href="vietnam.html">ベトナム</a></li>
-            <li><a href="china.html">中国</a></li>
-            <li><a href="india.html">インド</a></li>
-        </ul>
-    </section>
+    <h2>🌏 アジア</h2>
+    <div class="grid">
+        <div class="card"><a href="singapore.html">シンガポール</a></div>
+        <div class="card"><a href="malaysia.html">マレーシア</a></div>
+        <div class="card"><a href="thailand.html">タイ</a></div>
+        <div class="card"><a href="southkorea.html">韓国</a></div>
+        <div class="card"><a href="taiwan.html">台湾</a></div>
+        <div class="card"><a href="vietnam.html">ベトナム</a></div>
+        <div class="card"><a href="china.html">中国</a></div>
+        <div class="card"><a href="indonesia.html">インドネシア</a></div>
+    </div>
 
-    <section>
-        <h2>🇪🇺 ヨーロッパ</h2>
-        <ul>
-            <li><a href="france.html">フランス</a></li>
-            <li><a href="italy.html">イタリア</a></li>
-            <li><a href="uk.html">イギリス</a></li>
-            <li><a href="germany.html">ドイツ</a></li>
-            <li><a href="switzerland.html">スイス</a></li>
-            <li><a href="greece.html">ギリシャ</a></li>
-            <li><a href="spain.html">スペイン</a></li>
-            <li><a href="portugal.html">ポルトガル</a></li>
-        </ul>
-    </section>
+    <h2>🇪🇺 ヨーロッパ</h2>
+    <div class="grid">
+        <div class="card"><a href="france.html">フランス</a></div>
+        <div class="card"><a href="italy.html">イタリア</a></div>
+        <div class="card"><a href="uk.html">イギリス</a></div>
+        <div class="card"><a href="germany.html">ドイツ</a></div>
+        <div class="card"><a href="switzerland.html">スイス</a></div>
+        <div class="card"><a href="greece.html">ギリシャ</a></div>
+        <div class="card"><a href="spain.html">スペイン</a></div>
+        <div class="card"><a href="portugal.html">ポルトガル</a></div>
+    </div>
 
-    <section>
-        <h2>🌎 北米</h2>
-        <ul>
-            <li><a href="usa.html">アメリカ</a></li>
-            <li><a href="canada.html">カナダ</a></li>
-            <li><a href="mexico.html">メキシコ</a></li>
-            <li><a href="cuba.html">キューバ</a></li>
-        </ul>
-    </section>
+    <h2>🌎 北米</h2>
+    <div class="grid">
+        <div class="card"><a href="usa.html">アメリカ</a></div>
+        <div class="card"><a href="canada.html">カナダ</a></div>
+        <div class="card"><a href="mexico.html">メキシコ</a></div>
+        <div class="card"><a href="cuba.html">キューバ</a></div>
+         <div class="card"><a href="Hawaii.html">ハワイ</a></div>
+    </div>
 
-    <section>
-        <h2>🌍 南米</h2>
-        <ul>
-            <li><a href="brazil.html">ブラジル</a></li>
-            <li><a href="peru.html">ペルー</a></li>
-            <li><a href="argentina.html">アルゼンチン</a></li>
-        </ul>
-    </section>
+    <h2>🌍 南米</h2>
+    <div class="grid">
+        <div class="card"><a href="brazil.html">ブラジル</a></div>
+        <div class="card"><a href="peru.html">ペルー</a></div>
+        <div class="card"><a href="argentina.html">アルゼンチン</a></div>
+    </div>
 
-    <section>
-        <h2>🌏 オセアニア</h2>
-        <ul>
-            <li><a href="australia.html">オーストラリア</a></li>
-            <li><a href="newzealand.html">ニュージーランド</a></li>
-            <li><a href="fiji.html">フィジー</a></li>
-        </ul>
-    </section>
+    <h2>🌏 オセアニア</h2>
+    <div class="grid">
+        <div class="card"><a href="australia.html">オーストラリア</a></div>
+        <div class="card"><a href="newzealand.html">ニュージーランド</a></div>
+        <div class="card"><a href="fiji.html">フィジー</a></div>
+    </div>
 
-    <section>
-        <h2>🌍 アフリカ・中東</h2>
-        <ul>
-            <li><a href="egypt.html">エジプト</a></li>
-            <li><a href="uae.html">UAE</a></li>
-            <li><a href="southafrica.html">南アフリカ</a></li>
-            <li><a href="morocco.html">モロッコ</a></li>
-        </ul>
-    </section>
+    <h2>🌍 アフリカ・中東</h2>
+    <div class="grid">
+        <div class="card"><a href="egypt.html">エジプト</a></div>
+        <div class="card"><a href="uae.html">UAE</a></div>
+        <div class="card"><a href="southafrica.html">南アフリカ</a></div>
+        <div class="card"><a href="morocco.html">モロッコ</a></div>
+    </div>
 </body>
 </html>
