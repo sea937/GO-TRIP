@@ -1,0 +1,77 @@
+<style>
+    /* 全体のベース設定 */
+    body {
+        font-family: 'Yu Gothic Medium', '游ゴシック Medium', YuGothic, sans-serif;
+        line-height: 1.8;
+        font-size: 20px; /* 全体の文字サイズ */
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 60px 20px;
+        color: #333;
+        background-color: #fff;
+    }
+
+    /* タイトル */
+    h1 {
+        text-align: center;
+        font-size: 3.5rem;
+        margin-bottom: 60px;
+        padding-bottom: 30px;
+        position: relative;
+    }
+    h1::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 80px;
+        height: 5px;
+        background-color: #2c3e50;
+    }
+
+    /* 見出し */
+    h2 {
+        font-size: 2.2rem;
+        color: #2c3e50;
+        margin-top: 80px;
+        margin-bottom: 40px;
+        padding-left: 20px;
+        border-left: 8px solid #2c3e50;
+    }
+
+    /* 説明文 (pタグ) を大きく設定 */
+    p {
+        font-size: 22px; /* 説明文を大きく */
+        margin-bottom: 25px;
+    }
+
+    /* リストも大きく設定 */
+    li {
+        font-size: 22px; /* リスト項目も大きく */
+        background-color: #f9f9f9;
+        margin-bottom: 20px;
+        padding: 20px 25px 20px 60px;
+        border-radius: 12px;
+        border-bottom: 1px solid #eee;
+    }
+
+    /* テーブル */
+    table {
+        width: 100%;
+        margin-top: 40px;
+        font-size: 20px; /* 表の文字も大きく */
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 20px;
+        border: 1px solid #eee;
+    }
+
+    /* 国旗の調整 */
+    .flag-icon {
+        height: 0.8em;
+        vertical-align: middle;
+        margin-left: 20px;
+    }
+</style>
