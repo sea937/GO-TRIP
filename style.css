@@ -74,4 +74,20 @@
         vertical-align: middle;
         margin-left: 20px;
     }
+
+/* 写真をページの端から端まで広げるスタイル */
+.full-width-img {
+    width: 100vw;               /* 画面の幅いっぱいに広げる */
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;         /* 親要素の制限を無視して画面端まで強制的に広げる */
+    margin-right: -50vw;
+    height: auto;
+    max-height: 500px;          /* 必要に応じて高さを制限（調整可能） */
+    object-fit: cover;          /* 写真が変形しないようにトリミングして収める */
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
 </style>
