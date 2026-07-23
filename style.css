@@ -90,4 +90,23 @@
     margin-bottom: 40px;
 }
 
+/* 航空券予約ボタンのスタイル */
+.btn-airticket {
+    display: block;
+    text-align: center;
+    background-color: #ff5722; /* 目を引くオレンジ色（変更可能） */
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 18px 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    margin: 30px 0;
+    transition: background-color 0.3s;
+}
+
+.btn-airticket:hover {
+    background-color: #e64a19; /* マウスを乗せた時の色 */
+}
+
 </style>
